@@ -1,2 +1,2 @@
 # Color-Flipper
-A color generator app
+An app that generates random colors

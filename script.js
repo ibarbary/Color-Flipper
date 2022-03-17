@@ -4,7 +4,7 @@ button.addEventListener("click", changeColor);
 
 function changeColor()
 {
-    let randomColor = "#" + Math.floor(Math.random() * 19777215).toString(16);
+    let randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
     container.style.background = randomColor;
     button.textContent = `Color : ${randomColor}`;
 }
